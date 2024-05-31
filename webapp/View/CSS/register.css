@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px; /* Decrease the gap between elements */
+}
+
+.input-field {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 260px;
+    padding-bottom: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 850px;
+    margin-left: -87px;
+
+}
+
+
+.sign-up form{
+	display: flex;
+	
+}
+
+
+
+
+.profile-section {
+    flex: 1;
+    padding: 88px;
+}
+
+
+.input-field h1 {
+    color: #A1C6F3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    color: #A1C6F3;
+}
+
+.input-field input[type="text"],
+.input-field input[type="email"],
+.input-field input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-field input[type="submit"] {
+    background-color: #A1C6F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.input-field input[type="submit"]:hover {
+    background-color: #3f70a1;
+}
+
+.login-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-btn {
+    color: #A1C6F3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-btn:hover {
+    color: #3f70a1;
+}
+
+.image-field {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.showImage {
+	width: 120px;
+	height: 120px;
+    border-radius: 50%;
+    border: 3px solid #A1C6F3;
+}
+
+.imageChooser {
+    display: none;
+}
+
+#upload-btn {
+    width: 127px;
+    background-color: #A1C6F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#upload-btn:hover {
+    background-color: #3f70a1;
+}
+
+.return {
+    display: block;
+    margin-top: 20px;
+    color: #A1C6F3;
+    text-decoration: none;
+    margin-right: 107px;
+}
+
+.return:hover {
+    text-decoration: underline;
+  
+}

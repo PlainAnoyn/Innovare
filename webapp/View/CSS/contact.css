@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    color: #606060;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Aligns label and input on the same baseline */
+  }
+  
+  label {
+    display: inline-block; /* Labels and inputs appear in the same line */
+    margin-right: 10px; /* Spacing between label and input */
+    width: 80px; /* Fixed width for labels */
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: calc(100% - 90px); /* Calculates input width based on label width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 100%; /* Full width for message box */
+    height: 150px; /* Increased height for message box */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for message box */
+  }
+  
+  button {
+    background-color: skyblue; /* Sky blue button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #3399cc; /* Darker blue on hover */
+    padding: 12px 25px; /* Slightly increased padding on hover */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+    }
+  

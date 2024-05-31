@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --mainColor: #A1C6F3;
+}
+/* .admin-header{
+	width: 100%;
+    height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.admin-header a{
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	text-decoration: none;
+}
+.admin-header a:hover{
+	color: var(--mainColor);
+} */
+.add-product-form {
+  margin: 20px auto;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.add-product-form form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.add-product-form .top {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-product-form .left2,
+.add-product-form .right2 {
+  flex: 1;
+}
+
+.add-product-form label {
+  color: #A1C6F3;
+  font-weight: bold;
+}
+.product-table img{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="number"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-product-form .img-section {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.add-product-form .imageChooser {
+  margin-top: 20px;
+}
+
+.add-product-form button[type="submit"],
+.add-product-form a {
+  background-color: #A1C6F3;
+  color: #fff;
+  border: none;
+  /* margin-right: -300px; */
+  margin-left: 331px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.add-product-form button[type="submit"]:hover,
+.add-product-form a:hover {
+  background-color: #6699CC;
+}
+
+.add-product-form .showImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .add-product-form form {
+    padding: 10px;
+  }
+  .add-product-form input[type="text"],
+  .add-product-form input[type="number"] {
+    width: 100%;
+  }
+}
+

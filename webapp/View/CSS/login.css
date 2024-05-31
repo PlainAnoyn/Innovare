@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.stt{
+    color: grey; 
+    margin-right: 250px;
+}
+.mainin {
+    background-color: #ffffff;
+    padding: 425px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.first-heading {
+    color: #A1C6F3;
+    margin-bottom: 15px;
+    font-size:38px;
+    margin-bottom: 81px;
+
+
+}
+
+.first-input,
+.second-input {
+    width: 180%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.first-button {
+    background-color: #A1C6F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.first-button:hover {
+    background-color: #6699CC;
+}
+
+.first-para {
+    margin-top: 20px;
+    color: #666;
+}
+
+.first-para a {
+    color: #A1C6F3;
+    text-decoration: none;
+}
+
+.first-para a:hover {
+    text-decoration: underline;
+}
+
+.return {
+    display: block;
+    margin-top: 20px;
+    color: #A1C6F3;
+    text-decoration: none;
+}
+
+.return:hover {
+    text-decoration: underline;
+}
